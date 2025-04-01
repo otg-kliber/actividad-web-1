@@ -1,0 +1,130 @@
+body {
+   background: linear-gradient(to bottom, #5c5f62, #1d3a61); /* Azul oscuro degradado */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    background: #1E1E1E; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.3); 
+
+.header {
+    text-align: center;
+    
+}
+
+.header img {
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid #FFD700; 
+}
+
+.section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #222; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(255, 215, 0, 0.2); 
+}
+
+h2 {
+    color: #FFD700; 
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #2A2A2A; 
+    color: #EAEAEA; 
+}
+
+table, th, td {
+    border: 1px solid #FFD700; 
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #ac5e05; 
+    color: #FFD700; 
+}
+
+td {
+    background-color: #333; 
+}
+
+td:hover {
+    background-color: #444; 
+}
+.seccion-videojuegos {
+    background: linear-gradient(to right, #121212, #1E1E1E); /* Fondo oscuro elegante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 80%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.seccion-videojuegos {
+    background: linear-gradient(to right, #111, #222); /* Mantener un fondo oscuro elegante */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 100%;  /* Se adapta al ancho del currículum */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.seccion-videojuegos h2 {
+    color: #FFD700; /* Amarillo dorado */
+    font-size: 18px;
+}
+
+.seccion-videojuegos h3 {
+    color: #FFA500; /* Naranja */
+    font-size: 16px;
+}
+
+.plataformas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.plataformas img {
+    width: 50px;  /* Logos más pequeños */
+    height: auto;
+    filter: drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.2));
+    transition: transform 0.2s ease-in-out;
+}
+
+.plataformas img:hover {
+    transform: scale(1.1);
+}
+
+
+}
